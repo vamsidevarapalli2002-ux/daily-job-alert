@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-EMAIL_FROM = os.environ.get("EMAIL_FROM")
-EMAIL_PASS = os.environ.get("EMAIL_PASS")
+EMAIL_FROM = os.environ.get("GMAIL_USER")
+EMAIL_PASS = os.environ.get("GMAIL_APP_PASSWORD")
 EMAIL_TO = "vamsidevarapalli2002@gmail.com"
 
 
